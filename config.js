@@ -1,14 +1,14 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://example.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'log',
+  subtitle: 'つくった何かの記録',
   copyright: '© All rights reserved.',
   disqusShortname: '',
-  postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  postsPerPage: 30,
+  googleAnalyticsId: '',
   useKatex: false,
   menu: [
     {
@@ -25,26 +25,27 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'ise',
+    photo: '/media/gravatar.jpg',
+    bio: 'なにかを作っている',
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '',
-      vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
-      line: '',
-      gitlab: '',
-      weibo: '',
-      codepen: '',
-      youtube: '',
-      soundcloud: '',
-      medium: '',
+        email: '',
+        facebook: '',
+        telegram: '',
+        twitter: '',
+        github: 'ise',
+        rss: '',
+        vkontakte: '',
+        linkedin: '',
+        instagram: 'ise_daisuke',
+        line: '',
+        gitlab: '',
+        weibo: '',
+        codepen: '',
+        youtube: '',
+        soundcloud: '',
+        medium: '',
     }
   }
 };
+
