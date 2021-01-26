@@ -1,8 +1,8 @@
 ---
-title: "About me"
-template: "page"
-socialImage: "/media/gravatar.jpg"
+template: page
+title: About me
+slug: about-me
+socialImage: /media/gravatar.jpg
+draft: false
 ---
-
-なにかを作っている
-
+なにかをつくっている
