@@ -1,9 +1,9 @@
 'use strict';
 
 module.exports = {
-  url: 'https://example.com',
+  url: 'https://somehow.blog',
   pathPrefix: '/',
-  title: 'log',
+  title: 'somehow blog',
   subtitle: 'つくった何かの記録',
   copyright: '© All rights reserved.',
   disqusShortname: '',
