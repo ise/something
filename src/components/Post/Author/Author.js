@@ -6,6 +6,9 @@ import { useSiteMetadata } from '../../../hooks';
 
 const Author = () => {
   const { author } = useSiteMetadata();
+  if (!author.bio || !author.contacts || !author.contacts.tiwtter) {
+    return null;
+  }
 
   return (
     <div className={styles['author']}>
