@@ -26,7 +26,7 @@ module.exports = {
   ],
   author: {
     name: 'ise',
-    photo: '/media/gravatar.jpg',
+    photo: '/media/photo.png',
     bio: 'なにかをつくっている',
     contacts: {
         email: '',
